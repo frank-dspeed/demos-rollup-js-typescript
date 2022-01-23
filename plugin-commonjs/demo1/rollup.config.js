@@ -24,11 +24,20 @@ const plugins = [
 
 const bundels = [
 	{
-		input: [
+		input: {
 			//	'index.js'
-			'esm-src/index.js',
-		],
-		output: { ...output, dir: 'lib', format: 'esm' },
+			'cjs.index': 'index.js',
+			'esm.index': 'esm-src/index.js',
+		},
+		output: {
+			...output,
+			banner: `/* eslint-disable @typescript-eslint/ban-ts-comment */
+/* eslint-disable object-shorthand */
+/* eslint-disable prettier/prettier */
+// @ts-ignore`,
+			dir: 'lib',
+			format: 'esm',
+		},
 		plugins,
 	},
 ];
