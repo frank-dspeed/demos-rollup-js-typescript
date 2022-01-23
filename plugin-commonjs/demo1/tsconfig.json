@@ -1,0 +1,15 @@
+{
+    "include": ["./**/*.js"],
+    "compilerOptions": {
+        "types": ["@types/node"],
+        "target": "es2017",
+        "module": "ESNext", 
+        "checkJs": true, 
+        "allowJs": true, 
+        "emitDeclarationOnly": true, 
+        "declaration": true, 
+        "noImplicitAny": true, // We Want to get this working with rollup/plugin-commonjs helpers
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true 
+    }
+}

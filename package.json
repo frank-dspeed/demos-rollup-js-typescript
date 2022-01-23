@@ -1,0 +1,34 @@
+{
+  "name": "demos-rollup-js-typescript",
+  "version": "0.0.0",
+  "description": "This Repo Trys to Demo what the future would look like if now all would enable checkJs and allowJs in TypeScript Projects with ESM Code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frank-dspeed/demos-rollup-js-typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frank-dspeed/demos-rollup-js-typescript/issues"
+  },
+  "homepage": "https://github.com/frank-dspeed/demos-rollup-js-typescript#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.1.1",
+    "@types/express": "^4.17.13",
+    "@types/http-proxy": "^1.17.7",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^16.11.11",
+    "@types/nw.gui": "^0.0.21",
+    "@types/nw.js": "^0.13.14",
+    "@types/ws": "^8.2.0",
+    "@typescript/lib-dom": "npm:@types/web@^0.0.48",
+    "rollup": "^2.61.1",
+    "typescript": "^4.5.5"
+  }
+}
